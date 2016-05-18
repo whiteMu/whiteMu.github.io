@@ -1,0 +1,41 @@
+<!--========滚动条bar=====-->
+<ion-view title="Home" hide-nav-bar="true">
+	<ion-scroll zooming="true" direction="y" style="width: 100%; height: 100%" ng-controller="reFreshIndex">
+		<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()" icon="android"></ion-refresher>
+		
+			<!--========滑动块bar=====-->
+			
+			<div class="angular_slide" ng-controller="MyCtrl">
+
+				<ion-slide-box does-continue="true" auto-play="true">
+					<ion-slide ng-repeat='list in top_stories' class="angular_slide_list">
+						<img ng-src="{{list.image}}" />
+						<p ng-bind="list.title"></p>
+					</ion-slide>
+
+					
+				</ion-slide-box>
+
+			</div>
+			<!--========列表項=====-->
+			<div class="index_list_wrap" ng-controller="MyCtrl">
+				<h2>今日热文</h2>
+				<ul class="index_list">
+					<li ng-repeat="msglist in stories">
+						<a ui-sref="article" class="index_list_show clearfix">
+							<h3 ng-bind="msglist.title"></h3>
+							<div class="index_list_img">
+								<img ng-src="{{msglist.images[0]}}" />
+							</div>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+			<!--========滚动条到底部时触发的方法=====-->
+			<ion-infinite-scroll icon="ion-loading-c" on-infinite="getNewMsg()">
+			</ion-infinite-scroll>
+		
+
+	</ion-scroll>
+</ion-view>

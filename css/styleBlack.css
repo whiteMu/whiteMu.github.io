@@ -1,0 +1,238 @@
+/* Empty. Add your own CSS if you like */
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset,
+img {
+	border: none;
+}
+
+img {
+	display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+body {
+	color: #333;
+	padding: 0;
+	font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+	background: #fff;
+	/* overflow-y:scroll;*/
+	overflow-x: hidden;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	height: 0;
+	visibility: hidden;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/*=================body=================*/
+
+
+/*=================header=================*/
+
+.bar.bar-positive {
+	border-color: #222222;
+	background-color: #222222;
+	background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
+	color: #fff;
+}
+.bar-positive .button {
+    border-color: transparent;
+    background-color: #222222;
+    color: #fff;
+}
+.header_header {
+	height: 50px;
+	background: #8B8B8B;
+	color: white;
+}
+
+.header_right {
+	position: relative;
+}
+
+.set {
+	width: 3.50rem;
+	height: 1.70rem;
+	position: absolute;
+	top: 0;
+	right: 0.1rem;
+	z-index: 1;
+	background: white;
+	border-radius: 3px;
+	color: black;
+}
+
+.setBlack {
+	width: 3.50rem;
+	height: 1.70rem;
+	position: absolute;
+	top: 0;
+	right: 0.1rem;
+	z-index: 1;
+	border-radius: 3px;
+	color: white;
+	background: #404040;
+	-webkit-box-shadow: 4 4 10 black;
+}
+
+.set li {
+	height: 0.85rem;
+	line-height: 0.85rem;
+	font-size: 0.3rem;
+	font-weight: 700;
+	text-indent: 0.3rem;
+}
+
+.setBlack li {
+	height: 0.85rem;
+	line-height: 0.85rem;
+	font-size: 0.3rem;
+	font-weight: 700;
+	text-indent: 0.3rem;
+}
+
+
+/*========侧边栏部分======*/
+
+
+/*========侧边栏部分-的头部部分======*/
+
+.left_scoll .scroll-bar {
+	display: none;
+}
+
+aside .aside_main header {
+	height: 1.96rem;
+	background: #252525;
+	border-bottom: 1px solid #1196CF;
+}
+
+.header_icon a {
+	display: block;
+	height: 1.39rem;
+	padding-left: 0.27rem;
+	padding-top: 0.18rem;
+}
+
+.header_icon a img {
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	float: left;
+}
+
+.header_icon a span {
+	height: 0.6rem;
+	padding-left: 0.22rem;
+	line-height: 0.6rem;
+	font-size: 0.28rem;
+	color: #9B9B9B;
+	float: left;
+}
+
+.header_loading a {
+	padding-left: 0.42rem;
+	color: #676767;
+	width: 50%;
+	font-size: 0.26rem;
+	font-weight: 900;
+}
+
+.header_loading a .icon {
+	color:white;
+	margin-right: 0.4rem;
+}
+
+
+/*========侧边栏部分-的首页部分======*/
+
+aside .aside_main .aside_home_botton {
+	display: block;
+	padding-left: 0.4rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	font-size: 0.3rem;
+	font-weight: 900;
+	color: #00A1EA;
+	background: #2C2C2C;
+}
+
+aside .aside_main .aside_home_botton .icon {
+	font-size: 0.32rem;
+	margin-right: 0.26rem;
+}
+
+
+/*========侧边栏部分-的列表部分======*/
+aside .aside_main ul{
+	background:#343434;
+}
+aside .aside_main ul li {
+	height: 1.0rem;
+	line-height: 1.0rem;
+	padding-left: 0.34rem;
+	color: #000000;
+	font-weight: 900;
+	font-size: 0.28rem;
+	padding-right: 1.05rem;
+	background:#343434;
+}
+aside .aside_main ul li a{
+	display: block;
+}
+.aside_add_icon {
+	float: right;
+	color: #CCCCCC;
+}

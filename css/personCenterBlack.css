@@ -1,0 +1,63 @@
+.scroll-view{
+	background:#343434;
+}
+.personCenter_icon{
+	padding:0.48rem 1.93rem;
+	margin-top:50px;
+	background:#343434;
+}
+.personCenter_icon img{
+	width:1.60rem;
+	height:1.60rem;
+	border-radius: 50%;
+	margin:0 auto;
+	margin-bottom: 0.75rem;
+}
+.personCenter_icon h3{
+	width:1.38rem;
+	height:0.44rem;
+	text-align: center;
+	color:#C3C3C3;
+	font-size:0.32rem;
+	border-bottom: 3px solid #C3C3C3;
+	margin:0 auto;
+	margin-bottom:0.6rem;
+	font-weight:900;
+}
+.personCenter_icon a:nth-child(3){
+	display: block;
+	height:1.05rem;
+	color:#327FA9;
+	text-align: center;
+	font-size: 0.32rem;
+	line-height: 1.05rem;
+	border-top:2px solid #E2E2E2;
+	border-bottom:2px solid #E2E2E2;
+	font-weight:900;
+}
+.personCenter_icon a:nth-child(4){
+	display: block;
+	height:1.05rem;
+	color:#327FA9;
+	text-align: center;
+	font-size: 0.32rem;
+	line-height: 1.05rem;
+	
+	border-bottom:2px solid #E2E2E2;
+	font-weight:900;
+	margin-bottom: 1.06rem;
+}
+.personCenter_icon a:nth-child(5){
+	display: block;
+	width:1.80rem;
+	height:0.75rem;
+	line-height:0.75rem;
+	text-align:center;
+	font-size:0.3rem;
+	font-weight:900;
+	color:#920903;
+	border:2px solid #2A2A2A;
+	border-radius:18px;
+	margin:0 auto;
+	background:#3E3E3E;
+}

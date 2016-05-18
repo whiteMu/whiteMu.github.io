@@ -1,0 +1,93 @@
+/*=======头部设置部分======*/
+.side_menu_content_wrap{
+	width:100%;
+	height:100%;
+	background:#343434;
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: 11;
+}
+/*=======滑块部分======*/
+
+.slider-slides {
+	height: 3.98rem;
+}
+.slider-pager .slider-pager-page{
+	width:6px;
+	color:#FFF;
+}
+.angular_slide_list{
+	position: relative;
+	overflow: hidden;
+}
+.angular_slide img{
+	width:100%;
+}
+.angular_slide_list p{
+	position: absolute;
+	left: 0;
+	bottom:0;
+	color:white;
+	padding-left: 0.28rem;
+	padding-right: 0.28rem;
+	padding-bottom: 0.3rem;
+	font-size:0.38rem;
+	font-weight:900;
+	
+}
+.bar-positive {
+	height: 50px;
+}
+/*=======列表部分======*/
+.index_list_wrap{
+	padding:0 0.17rem;
+	background:#343434;
+}
+.index_list_wrap h2{
+	height:0.98rem;
+	line-height: 0.98rem;
+	color:#C2C2C2;
+	font-size:0.26rem;
+	
+}
+.index_list{
+	padding-bottom: 1px;
+}
+.index_list li{
+	height:1.80rem;
+	background:#404040;
+	border-radius: 5px;
+	border:1px solid #313131;
+	box-shadow:2px 2px 3 red;
+	margin-bottom: 0.24rem;
+	
+	
+}
+.index_list_show{
+	display: block;
+	width:100%;
+	padding-right: 0.3rem;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+}
+.index_list li h3{
+	-webkit-box-flex:1;
+	padding-left: 0.3rem;
+	padding-right:0.2rem;
+	padding-top:0.3rem;
+	font-size:0.32rem;
+	font-weight:900;
+	color:#8B8B8B;
+	
+}
+.index_list_img{
+	width:1.29rem;
+	height:1.29rem;
+	margin-top:0.23rem;
+	
+}
+.index_list_img img{
+	height:100%;
+}
